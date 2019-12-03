@@ -7,6 +7,6 @@ object Day1 {
     (floor(mass.toInt/3.0) - 2).toInt
   }
   def main(args: Array[String]): Unit = {
-      println(txtToList("data.txt").map(calculate).sum)
+      println(txtToList("day1.txt").map(calculate).sum)
   }
 }
